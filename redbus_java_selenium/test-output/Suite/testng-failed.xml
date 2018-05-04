@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="chormeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.redbus.testCases.TravelFirst">
+        <methods>
+          <include name="verifyPageLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.redbus.testCases.TravelFirst -->
+    </classes>
+  </test> <!-- chormeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
